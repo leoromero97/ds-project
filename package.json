@@ -1,0 +1,34 @@
+{
+  "name": "ds-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoromero97/ds-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoromero97/ds-project/issues"
+  },
+  "homepage": "https://github.com/leoromero97/ds-project#readme",
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.5.1",
+    "@storybook/addon-interactions": "^7.5.1",
+    "@storybook/addon-links": "^7.5.1",
+    "@storybook/blocks": "^7.5.1",
+    "@storybook/html": "^7.5.1",
+    "@storybook/html-vite": "^7.5.1",
+    "@storybook/testing-library": "^0.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.5.1"
+  }
+}

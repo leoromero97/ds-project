@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Titillium Web', 'Public Sans', sans-serif;
+}
+
+:root {
+  /* Primary */
+  --navy-900: #032744;
+  --navy-800: #003057;
+  --navy-700: #00416F;
+  --navy-600: #064A7C;
+  --navy-500: #155487;
+  --navy-400: #1E5C90;
+  --navy-300: #4A739D;
+  --navy-200: #6C8CAD;
+  --navy-100: #95ACC5;
+  --navy-50: #BECDDC;
+  /* Secondary */
+  --pink-900: #910B4D;
+  --pink-800: #AF296B;
+  --pink-700: #C8367E;
+  --pink-600: #DF4D95;
+  --pink-500: #F56FB1;
+  --pink-400: #FF79BC;
+  --pink-300: #FF8CC5;
+  --pink-200: #FEA5D3;
+  --pink-100: #FFC6E3;
+  --pink-50: #FEE4F1;
+  --blue-900: #000357;
+  --blue-800: #001183;
+  --blue-700: #0318A5;
+  --blue-600: #0F27C7;
+  --blue-500: #203AE9;
+  --blue-400: #324DFF;
+  --blue-300: #506BFF;
+  --blue-200: #7893FF;
+  --blue-100: #B7CAFF;
+  --blue-50: #DBE9FF;
+  --stone-900: #332415;
+  --stone-800: #40301D;
+  --stone-700: #4D3B25;
+  --stone-600: #57442B;
+  --stone-500: #6F5D49;
+  --stone-400: #877868;
+  --stone-300: #A99E93;
+  --stone-200: #CBC5BE;
+  --stone-100: #EAE8E5;
+  --stone-50: #F4F4F4;
+  --black-900: #071319;
+  --black-800: #313334;
+  --black-700: #4F5151;
+  --black-600: #626465;
+  --black-500: #898B8C;
+  --black-400: #AAACAD;
+  --black-300: #BDC0C1;
+  --black-200: #DBDDDE;
+  --black-100: #EDEDED;
+  --black-50: #F5F5F5;
+
+  /* Typography */
+  --font-family-titillium-web: 'Titillium Web', sans-serif;
+  --font-family-public-sans: 'Public Sans', sans-serif; 
+  --font-display-xl-regular: 400 3.125em/80px "Titillium Web", sans-serif;
+  --font-display-xl-semibold: 600 3.125em/80px "Titillium Web", sans-serif;
+  --font-display-xl-bold: 700 3.125em/80px "Titillium Web", sans-serif;
+  --font-display-lg-regular: 400 2.5em/64px "Titillium Web", sans-serif;
+  --font-display-lg-semibold: 600 3.125em/64px "Titillium Web", sans-serif;
+  --font-display-lg-bold: 700 3.125em/64px "Titillium Web", sans-serif;
+  --font-heading-xl-semibold: 600 2em/48px "Titillium Web", sans-serif;
+  --font-heading-xl-bold: 700 2em/48px "Titillium Web", sans-serif;
+  --font-heading-lg-semibold: 600 1.75em/48px "Titillium Web", sans-serif;
+  --font-heading-lg-bold: 700 1.75em/48px "Titillium Web", sans-serif;
+  --font-heading-md-semibold: 600 1.5em/40px "Titillium Web", sans-serif;
+  --font-heading-md-bold: 700 1.5em/40px "Titillium Web", sans-serif;
+  --font-heading-sm-semibold: 600 1.25em/32px "Public Sans", sans-serif;
+  --font-heading-sm-bold: 700 1.25em/32px "Public Sans", sans-serif;
+}
