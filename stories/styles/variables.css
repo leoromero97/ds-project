@@ -1,79 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "./fonts.css";
 
 * {
-  font-family: 'Titillium Web', 'Public Sans', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
-  /* Primary */
-  --navy-900: #032744;
-  --navy-800: #003057;
-  --navy-700: #00416F;
-  --navy-600: #064A7C;
-  --navy-500: #155487;
-  --navy-400: #1E5C90;
-  --navy-300: #4A739D;
-  --navy-200: #6C8CAD;
-  --navy-100: #95ACC5;
-  --navy-50: #BECDDC;
-  /* Secondary */
-  --pink-900: #910B4D;
-  --pink-800: #AF296B;
-  --pink-700: #C8367E;
-  --pink-600: #DF4D95;
-  --pink-500: #F56FB1;
-  --pink-400: #FF79BC;
-  --pink-300: #FF8CC5;
-  --pink-200: #FEA5D3;
-  --pink-100: #FFC6E3;
-  --pink-50: #FEE4F1;
-  --blue-900: #000357;
-  --blue-800: #001183;
-  --blue-700: #0318A5;
-  --blue-600: #0F27C7;
-  --blue-500: #203AE9;
-  --blue-400: #324DFF;
-  --blue-300: #506BFF;
-  --blue-200: #7893FF;
-  --blue-100: #B7CAFF;
-  --blue-50: #DBE9FF;
-  --stone-900: #332415;
-  --stone-800: #40301D;
-  --stone-700: #4D3B25;
-  --stone-600: #57442B;
-  --stone-500: #6F5D49;
-  --stone-400: #877868;
-  --stone-300: #A99E93;
-  --stone-200: #CBC5BE;
-  --stone-100: #EAE8E5;
-  --stone-50: #F4F4F4;
-  --black-900: #071319;
-  --black-800: #313334;
-  --black-700: #4F5151;
-  --black-600: #626465;
-  --black-500: #898B8C;
-  --black-400: #AAACAD;
-  --black-300: #BDC0C1;
-  --black-200: #DBDDDE;
-  --black-100: #EDEDED;
-  --black-50: #F5F5F5;
-
-  /* Typography */
-  --font-family-titillium-web: 'Titillium Web', sans-serif;
-  --font-family-public-sans: 'Public Sans', sans-serif; 
-  --font-display-xl-regular: 400 3.125em/80px "Titillium Web", sans-serif;
-  --font-display-xl-semibold: 600 3.125em/80px "Titillium Web", sans-serif;
-  --font-display-xl-bold: 700 3.125em/80px "Titillium Web", sans-serif;
-  --font-display-lg-regular: 400 2.5em/64px "Titillium Web", sans-serif;
-  --font-display-lg-semibold: 600 3.125em/64px "Titillium Web", sans-serif;
-  --font-display-lg-bold: 700 3.125em/64px "Titillium Web", sans-serif;
-  --font-heading-xl-semibold: 600 2em/48px "Titillium Web", sans-serif;
-  --font-heading-xl-bold: 700 2em/48px "Titillium Web", sans-serif;
-  --font-heading-lg-semibold: 600 1.75em/48px "Titillium Web", sans-serif;
-  --font-heading-lg-bold: 700 1.75em/48px "Titillium Web", sans-serif;
-  --font-heading-md-semibold: 600 1.5em/40px "Titillium Web", sans-serif;
-  --font-heading-md-bold: 700 1.5em/40px "Titillium Web", sans-serif;
-  --font-heading-sm-semibold: 600 1.25em/32px "Public Sans", sans-serif;
-  --font-heading-sm-bold: 700 1.25em/32px "Public Sans", sans-serif;
+  /* Basics */
+  --white: #ffffff;
+  --anti-flash-white: #f0f1f3;
+  --platinium: #e0e4e6;
+  --silver-soft: #d6d8da;
+  --gray-soft: #9b9b9b;
+  --gray: #575959;
+  --black: #000000;
+  /* Mains */
+  --piccolo: #4e46b4;
+  --jiren: rgba(78, 70, 180, 0.12);
+  --hit: #40a69f;
+  --heles: #0000000a;
+  --beerus: #e2e2e2;
+  --goku: #f5f5f5;
+  --goten: #fff;
+  --zeno: #0000008f;
+  --bulma: #000;
+  --trunks: #595d62;
+  /* Semantics */
+  --krillin: #FFB319;
+  --krillin-60: #ffb3198f;
+  --krillin-10: #ffb31a1f;
+  --dodoria: #D33030;
+  --dodoria-60: #d330308f;
+  --dodoria-10: #d330301f;
+  --whis: #3448F0;
+  --whis-60: #3448f08f;
+  --whis-10: #3448f01f;
+  --chichi: #FF4E64;
+  --chichi-60: #ff4e648f;
+  --chichi-10: #ff4e641f;
+  --cell: #95F1D5;
+  --cell-60: #95f1d58f;
+  --cell-10: #95f1d51f;
+  --frieza: #5C33CF;
+  --frieza-60: #5c33cf8f;
+  --frieza-10: #5c33cf1f;
+  --roshi: #2E7D32;
+  --roshi-60: #2e7d328f;
+  --roshi-10: #2e7d321f;
+  --raditz: #B3804A;
+  --raditz-60: #b3804a8f;
+  --raditz-10: #b3804a1f;
+  --nappa: #725550;
+  --nappa-60: #7255508f;
+  --nappa-10: #7255501f;
 }
