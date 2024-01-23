@@ -1,9 +1,10 @@
 import './button.css'
 
 export const createButton = ({
-  withIcon = false,
+  isFull = false,
   text = "Texto",
-  type = "fill"
+  type = "fill",
+  onClick
 }) => {
   const button = document.createElement('button');
   button.type = 'submit';
@@ -12,7 +13,8 @@ export const createButton = ({
   button.className = [
     'button',
     `button--type-${type}`,
+    `button--isFull-${isFull}`,
   ].join(' ');
-
+  button.addEventListener('click', onClick)
   return button;
 };

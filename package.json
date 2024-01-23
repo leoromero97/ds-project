@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test-storybook": "test-storybook"
   },
   "repository": {
     "type": "git",
@@ -21,14 +22,19 @@
   "homepage": "https://github.com/leoromero97/ds-project#readme",
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.1",
-    "@storybook/addon-interactions": "^7.5.1",
+    "@storybook/addon-interactions": "^7.6.10",
     "@storybook/addon-links": "^7.5.1",
     "@storybook/blocks": "^7.5.1",
     "@storybook/html": "^7.5.1",
     "@storybook/html-vite": "^7.5.1",
+    "@storybook/jest": "^0.2.3",
+    "@storybook/test-runner": "^0.16.0",
     "@storybook/testing-library": "^0.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "^7.5.1"
+  },
+  "dependencies": {
+    "@storybook/addon-a11y": "^7.6.10"
   }
 }
